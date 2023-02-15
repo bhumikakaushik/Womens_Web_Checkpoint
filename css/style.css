@@ -8,7 +8,8 @@ body{
 nav, header{
     font-family: Merriweather, Stanley, “Times New Roman”, monospace ;
     margin: 0 auto;
-    padding: 5px 10px;
+    /* padding: 5px 10px; */
+    padding: 0.5% 1%;
 }
 
 nav{
@@ -21,9 +22,11 @@ nav ul{
 
 nav ul li{
     display: inline-block;
-    padding: 8px 20px;
+    /* padding: 8px 20px; */
+    padding: 0.5% 1%;
     font-size: 20px;
-    margin: auto 40px;
+    /* margin: auto 40px; */
+    margin: auto 5%;
 }
 
 nav a{
@@ -52,7 +55,8 @@ nav a.active{
 
 #mainstuff{
     margin: 0 auto;
-    padding: 5px 20px;
+    /* padding: 5px 20px; */
+    padding: 0.5% 2%;
 }
 
 h1{
@@ -63,24 +67,21 @@ h1{
 }
 h2{
     font-size: 28px;
-    /* text-align: left; */
     font-weight: 600;
+    /* margin-top: 10px; */
+    margin-top: 1%;
 }
 h3{
     font-size: 20px;
     font-weight: 600;
-}
-h4{
-    font-size: 20px;
-    font-weight: 500;
-}
-h2, h3, h4{
-    margin-top: 10px;
+    /* margin-top: 10px; */
+    margin-top: 0.5%;
 }
 
 div:nth-of-type(odd)>img{
     width: 45%;
-    padding: 20px;
+    /* padding: 20px; */
+    padding: 1%;
     margin: 5px 10px;
     border: solid #133416 3px;
     border-radius: 25px;
@@ -88,8 +89,10 @@ div:nth-of-type(odd)>img{
 
 div:nth-of-type(even)>img{
     width: 45%;
-    padding: 20px;
-    margin: 5px 10px;
+    /* padding: 20px; */
+    padding: 1%;
+    /* margin: 5px 10px; */
+    margin: auto;
     border: solid green 3px;
     border-radius: 25px;
 }
@@ -106,26 +109,25 @@ footer{
     background-color: #133416;
     color: #F0EEE2;
 }
-footer a{
-    color: #FFFFFF;
+footer a, footer a:visited{
+    color: #DAF96E;
 }
 
-footer a:visited{
-    color: #FFFFFF;
-}
 dd{
     font-size: 20px;
     font-weight: 600;
 }
+
 dt{
     font-size: 28px;
     margin-top: 4%;
     margin-bottom: 1%;
     text-decoration: underline;
     text-decoration-style: solid;
-    text-decoration-color: #133416;
+    text-decoration-color: #DAF96E;
     text-underline-offset: 8px;
 }
+
 dd>p{
     font-size: 20px;
 }
